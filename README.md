@@ -4,13 +4,14 @@
 # Obstacle Avoidance with Depth Camera for Robot
 
 This project implements obstacle avoidance using a depth camera for a robot. The robot uses Python programming language and a depth camera to detect objects in its surroundings and make decisions based on the depth information.
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 ## Overview
 
 The goal of this project is to enable a robot to navigate its environment while avoiding obstacles. The depth camera provides depth information about the objects in front of the robot. The image captured by the depth camera is divided into a 3x3 matrix. By analyzing the final column of the matrix, the robot determines if there are any objects close to it.
 
 If an object is detected in the final column, the robot will make a move to the left to avoid the obstacle. Conversely, if no object is detected in the final column, the robot will make a move to the right. This simple but effective approach allows the robot to maneuver around obstacles and continue its path safely.
-
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## Features
 
 - Obstacle detection using a depth camera
@@ -19,11 +20,14 @@ If an object is detected in the final column, the robot will make a move to the 
 - Integration with Python programming language
 - Easy-to-understand and extendable codebase
 
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 ## Requirements
 
 - Python 3
 - Depth camera
-
+  
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 ## Usage
 
 1. Clone the repository:
